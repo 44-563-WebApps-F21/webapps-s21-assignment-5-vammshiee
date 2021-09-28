@@ -39,16 +39,79 @@
       </div>
     </div>
     <p>The animal names row breaks first, As it contains "col-md" which has larger pixles whereas for the first row with letters we used "col-sm-2",sm has less pixels</p>
-    <div class="cotainer">
-      <img src="tiger.jpg" class="img-fluid">
-      <img src="impala.jpg" class="img-fluid">
-      <img src="horse.jpg" class="img-fluid">
+    <div class="container">
+      <img src="tiger.jpg" class="img-fluid"style="height: 250px; width: 250px;">
+      <img src="impala.jpg" class="img-fluid"style="height: 250px; width: 250px;">
+      <img src="horse.jpg" class="img-fluid" style="height: 250px; width: 250px;">
   </div>
 
-  <div class="cotainer">
-      <img src="tiger.jpg" class="img-thumbnail">
-      <img src="impala.jpg" class="img-thumbnail">
-      <img src="horse.jpg" class="img-thumbnail">
+  <div class="container">
+      <img src="tiger.jpg" class="img-thumbnail" style="height: 250px; width: 250px;">
+      <img src="impala.jpg" class="img-thumbnail" style="height: 250px; width: 250px;">
+      <img src="horse.jpg" class="img-thumbnail" style="height: 250px; width: 250px;">
   </div>
+  <table class="table table-borderless">
+   
+    <caption>List of Animals</caption>
+    <tr>
+        <th scope="col">Letter</th>
+        <th scope="col">Animal</th>
+        <th scope="col">City</th>
+        <th scope="col">Car</th>
+    </tr>
+    <tr class="table-secondary">
+        <td class="table-primary">T</td>
+        <td class="table-secondary">Tiger</td>
+        <td class="table-success">Tenali</td>
+        <td class="table-danger">Tesla</td>
+    </tr>
+    <tr class="table-success">
+        <td class="table-warning">H</td>
+        <td class="table-info">Horset</td>
+        <td class="table-light">Hyderabad</td>
+        <td class="table-success">Hyundai</td>
+    </tr>
+    <tr class="table-danger">
+        <td class="table-primary">I</td>
+        <td class="table-secondary">Impala</td>
+        <td class="table-success">Indore</td>
+        <td class="table-danger">Impala car</td>
+    </tr>
+    <tr class="table-warning">
+        <td class="table-warning">R</td>
+        <td class="table-info">Rabbit</td>
+        <td class="table-light">Rome</td>
+        <td class="table-success">Rolls Royce</td>
+    </tr>
+    <tr class="table-light">
+        <td class="table-primary">U</td>
+        <td class="table-secondary">Uakari</td>
+        <td class="table-success">Uyo</td>
+        <td class="table-danger">Urraco</td>
+    </tr>
+    <tr class="table-dark">
+        <td class="table-warning">N</td>
+        <td class="table-info">Numbat</td>
+        <td class="table-light">Nuzivedu</td>
+        <td class="table-success">Nexo</td>
+    </tr>
+</table>
+<h4>Buttom group</h4>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="btn-toolbar">
+            <div class="button-group">
+                <button class="btn btn-success">T</button>
+                <button class="btn btn-success">H</button>
+                <button class="btn btn-success">I</button>
+            </div>
+            <div class="button-group">
+                <button class="btn btn-alert">R</button>
+                <button class="btn btn-alert">U</button>
+            </div>
+            <div class="button-group">
+                <button class="btn btn-danger">N</button>
+            </div>
+        </div>
+    </nav>
 </body>
 </html>
